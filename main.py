@@ -54,7 +54,7 @@ class_names = ['Arabic', 'Chinese', 'Dutch', 'English', 'Estonian', 'French',
 
 # Sidebar
 st.sidebar.title("Language Identification Model")
-st.sidebar.image("language_icon.jpg", use_column_width=True)
+st.sidebar.image("language_icon.jpg", use_container_width=True)
 st.sidebar.markdown("""
     ### How It Works
     1. **Enter Text:** Type or paste a text in any language.
