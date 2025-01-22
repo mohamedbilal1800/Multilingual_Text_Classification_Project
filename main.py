@@ -2,11 +2,13 @@ import streamlit as st
 import numpy as np
 import tensorflow
 from tensorflow.keras.models import load_model
+from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 import joblib
 import urllib.request
 import os
+import pickle
 
 model_url = "https://github.com/mohamedbilal1800/Multilingual_Text_Classification_Project/releases/download/v1.0.0/LC_CNN_model.keras"
 model_path = "LC_CNN_Model.keras"
