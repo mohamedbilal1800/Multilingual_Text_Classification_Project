@@ -3,6 +3,7 @@ import numpy as np
 import tensorflow
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
 import joblib
 import urllib.request
 import os
