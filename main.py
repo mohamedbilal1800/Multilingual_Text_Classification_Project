@@ -25,7 +25,7 @@ else:
 model = load_model(model_path)
 
 # Load the tokenizer
-tokenizer = joblib.load('LC_Tokenizer.pkl')
+tokenizer = joblib.load('LC_tokenizer.pkl')
 label_encoder = joblib.load('LC_label_encoder.pkl')
 
 # with open('LC_Tokenizer.pkl', 'rb') as f:
