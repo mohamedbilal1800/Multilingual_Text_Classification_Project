@@ -3,4 +3,3 @@ requests
 tensorflow
 numpy
 joblib
-urllib
