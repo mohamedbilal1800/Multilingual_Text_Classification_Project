@@ -6,10 +6,6 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import joblib
 import urllib.request
 import os
-# import pickle
-
-# Load the trained model
-# model = load_model('LC_CNN_Model.keras')
 
 model_url = "https://github.com/mohamedbilal1800/Multilingual_Text_Classification_Project/releases/download/v1.0.0/LC_CNN_model.keras"
 model_path = "LC_CNN_Model.keras"
@@ -27,12 +23,6 @@ model = load_model(model_path)
 # Load the tokenizer
 tokenizer = joblib.load('LC_tokenizer.pkl')
 label_encoder = joblib.load('LC_label_encoder.pkl')
-
-# with open('LC_Tokenizer.pkl', 'rb') as f:
-#     tokenizer = pickle.load(f)
-
-# with open('LC_label_encoder.pkl', 'rb') as l:
-#     label_encoder = pickle.load(l)
     
 
 # Define the maximum sequence length
