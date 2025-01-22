@@ -12,7 +12,7 @@ import os
 # model = load_model('LC_CNN_Model.keras')
 
 model_url = "https://github.com/mohamedbilal1800/Multilingual_Text_Classification_Project/releases/download/v1.0.0/LC_CNN_model.keras"
-model_path = "LC_CNN_Model.keras
+model_path = "LC_CNN_Model.keras"
 
 # Check if the model already exists locally
 if not os.path.exists(model_path):
